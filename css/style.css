@@ -46,3 +46,34 @@ h1{
     background-color: yellow;
     color: green;
 }
+
+/* navigation */
+
+ #main-menu{
+    position: fixed;
+
+    right: 20px;
+    top: 30px;
+    
+ }
+
+ #main-menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+ }
+
+ #main-menu a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,5);
+    box-shadow: 1px 1px 1px #333;
+    text-decoration: none;
+ }
